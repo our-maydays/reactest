@@ -19,37 +19,37 @@ function App() {
 					<AudioComp/>
 				</div>
 
-				<div style={{border: debug}}>
+				<div className='fade-in' style={{border: debug}}>
 					<TopMsg/>
 				</div>
 
-				<div style={{border: debug}}>
+				<div className='fade-in' style={{border: debug}}>
 					<MainPhoto/>
 					Photo
 				</div>
 
-				<div style={{border: debug}}>
+				<div className='fade-in' style={{border: debug}}>
 					<WelcomeMsg/>
 					Welcome
 				</div>
 
-				<div style={{border: debug}}>
+				<div className='fade-in' style={{border: debug}}>
 					Calender
 				</div>
 
-				<div style={{border:debug}}>
+				<div className='fade-in' style={{border:debug}}>
 					Gallery
 				</div>
 
-				<div style={{border:debug}}>
+				<div className='fade-in' style={{border:debug}}>
 					Location
 				</div>
 
-				<div style={{border:debug}}>
+				<div className='fade-in' style={{border:debug}}>
 					Account
 				</div>
 
-				<div style={{border:debug}}>
+				<div className='fade-in' style={{border:debug}}>
 					Share
 				</div>
 
