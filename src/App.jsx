@@ -7,6 +7,8 @@ import AudioComp from './AudioComp'
 import TopMsg from './TopMsg'
 import MainPhoto from './MainPhoto'
 import WelcomeMsg from './WelcomeMsg'
+import Calendar from './Calendar'
+import Gallery from './Gallery'
 
 function App() {
 	
@@ -34,10 +36,12 @@ function App() {
 				</div>
 
 				<div className='fade-in' style={{border: debug}}>
+					<Calendar/>
 					Calender
 				</div>
 
 				<div className='fade-in' style={{border:debug}}>
+					<Gallery/>
 					Gallery
 				</div>
 

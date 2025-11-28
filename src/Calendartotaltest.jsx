@@ -11,31 +11,31 @@ const Calendar = () => {
 
 	const calendarDays = [];
 	for (let i = 0; i < firstDayOfMonth; i++) {
-		calendarDays.push(<td key={`empty-${i}`}></td>);
+		calendarDays.push(<td key={'empty-${i}'}></td>);
 	}
 
 	for (let day=1; day <= daysInMonth; day++) {
 		calendarDays.push(
-			<td key={day}>
+			<td key={day} className={day ===  target_day?'special-day':''}>
 				{day}
 			</td>
-			);
+		);
 	}
 
 	const rows = [];
 	for (let i = 0; i < calendarDays.length; i+=7) {
 		const week = calendarDays.slice(i, i+7);
 		rows.push(
-			<tr key={`row-${i}`}>
+			<tr key={'row-${i}'}>
 				{week.map((day, index) => (
-					<td key={index} className={
-						(day.props.children  === target_day) ? 'special-day' 
-						: (index === 0) ? 'sunday' : ''}> 
+					<td key={index} className={(day.key ==='${target_day}')
+						? 'special-day'
+						: (index === 0)?'sunday' : ''}>
 						{day.props.children}
 					</td>
 				))}
 			</tr>
-			);
+		);
 	}
 
 
