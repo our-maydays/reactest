@@ -11,7 +11,6 @@ import Calendar from './Calendar'
 import Gallery from './Gallery'
 import Navi from './Navi'
 import Account from './Account'
-import Intersect from './Intersect'
 
 function App() {
 	
@@ -24,43 +23,43 @@ function App() {
 					<AudioComp/>
 				</div>
 
-				<Intersect className='fade-in' style={{border: debug}}>
+				<div className='fade-in' style={{border: debug}}>
 					<TopMsg/>
-				</Intersect>
+				</div>
 
-				<Intersect className='fade-in' style={{border: debug}}>
+				<div className='fade-in' style={{border: debug}}>
 					<MainPhoto/>
 					Photo
-				</Intersect>
+				</div>
 
-				<Intersect className='fade-in' style={{border: debug}}>
+				<div className='fade-in' style={{border: debug}}>
 					<WelcomeMsg/>
 					Welcome
-				</Intersect>
+				</div>
 
-				<Intersect className='fade-in' style={{border: debug}}>
+				<div className='fade-in' style={{border: debug}}>
 					<Calendar/>
 					Calender
-				</Intersect>
+				</div>
 
-				<Intersect className='fade-in' style={{border:debug}}>
+				<div className='fade-in' style={{border:debug}}>
 					<Gallery/>
 					Gallery
-				</Intersect>
+				</div>
 
-				<Intersect className='fade-in' style={{border:debug}}>
+				<div className='fade-in' style={{border:debug}}>
 					<Navi/>
 					Location
-				</Intersect>
+				</div>
 
-				<Intersect className='fade-in' style={{border:debug}}>
+				<div className='fade-in' style={{border:debug}}>
 					<Account/>
 					Account
-				</Intersect>
+				</div>
 
-				<Intersect className='fade-in' style={{border:debug}}>
+				<div className='fade-in' style={{border:debug}}>
 					Share
-				</Intersect>
+				</div>
 
 			</div>
 		</>
